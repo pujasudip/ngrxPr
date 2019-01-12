@@ -1,0 +1,11 @@
+<p>
+  house works!
+</p>
+
+<p>New count: {{count$ | async}}</p>
+<button (click)="addOne()">Add 1</button><br/>
+<button (click)="addNum()">Add 5</button><br/>
+<a routerLink="/">Go to homepage</a><br />
+<a routerLink="bedroom">Bedroom</a><br />
+<a routerLink="kitchen">Kitchen</a>
+<router-outlet></router-outlet>
